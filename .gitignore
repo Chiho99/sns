@@ -1,0 +1,15 @@
+# gitの管理下に置かない
+# 環境変数でパスワードを隠す
+# orファイルごGit管理から外す
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
